@@ -1,23 +1,24 @@
-���Y���Q�[�I�^�C�s���O�Q�[��  
+リズムゲー的タイピングゲーム  
 "Typing game" Made by MYTIA  
 
-��w��N�̎���Java�v���O���~���O�̎��Ƃ̃O���[�v���[�N  
+大学一年の時のJavaプログラミングの授業のグループワーク。  
 
-�^�[�~�i��(�R�}���h�v�����v�g)�ɂ�MainFrame������f�B���N�g���Ɉړ����A
+ターミナル(コマンドプロンプト)にてMainFrameがあるディレクトリに移動し、
 ```
 javac MainFrame.java
 ```
-�ŃR���p�C���A
+でコンパイル、
 ```
 java MainFrame
 ```
-�Ŏ��s���܂��B  
+で実行します。  
 
-����͂��ׂăL�[�{�[�h�ōs���܂��B  
-�~���Ă��镶���̃x�[�X���C��������]�[���ɓ������Ƃ��ɁA�Ή�����L�[���������ƂŃX�R�A�����Z����܂��B  
-* ���ꂪ2�ȉ��FEXCELLENT
-* ���ꂪ10�ȉ��FGREAT
-* ���ꂪ20�ȉ��FNICE
-�Ԉ�����L�[�������ƃX�R�A�����_����܂��B  
-�܂��A�������ŉ��i�ɓ��B����ƃ��C�t������܂��B  
-���C�t���Ȃ��Ȃ�ƃQ�[���I�[�o�[�ł��B
+操作はすべてキーボードで行います。  
+降ってくる文字のベースラインが判定ゾーンに入ったときに、対応するキーを押すことでスコアが加算されます。  
+* ずれが2以下：EXCELLENT
+* ずれが10以下：GREAT
+* ずれが20以下：NICE
+
+間違ったキーを押すとスコアが減点されます。  
+また、文字が最下段に到達するとライフが減ります。  
+ライフがなくなるとゲームオーバーです。
